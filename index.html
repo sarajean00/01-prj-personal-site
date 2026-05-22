@@ -2,10 +2,71 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  
+</style>
+   </style>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+  </style>
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <header class="hero">
+    <nav class="banner-nav">
+      <a href="#bio">Introduction</a>
+      <a href="#work">A Bit About Me</a>
+      <a href="#projects">Upcoming Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero-content hero-center">
+      <div class="hero-intro">
+        <div class="hero-text-circle">
+          <h1>HELLO, I'M SARA.</h1>
+          <p>Junior designer who designs clean, expressive websites inspired by afro-centric, Americana art and simple modern shapes.</p>
+        </div>
+        <div class="bio-photo-wrap">
+          <img class="bio-photo" src="img/profilepicbio.jpg" alt="Profile picture">
+        </div>
+      </div>
+  </header>
+
+    <main class="page-content">
+      <section id="bio" class="section card">
+        <h2>Introduction</h2>
+        <p>Welcome to my portfolio! I am a beginner web developer learning HTML, CSS, and design. After learning the ins and outs of web development, I plan to produce highly personalized websites and online spaces for my clients. I love creating spaces that feel warm, personal, and simple to my clients, and each project is a step toward a strong online portfolio and creative future.</p>
+        <ul>
+        <li>Focus on approachable design</li>
+        <li>Practicing responsive layout</li>
+        <li>Building personal projects in class</li>
+      </section>
+      
+    <section id="work" class="section card">
+      <h2>A Bit About Me</h2>
+      <div class="project-item">
+        <p>After graduating in Spring of 2026 with my bachelor's degree in Art, I began challenging myself in developing skills for web design and development. As the digital landscape grows and shifts, I want to be a part of the evolution wherever it leads. In this portfolio, I will be showcasing not only what I've learned, but also my journey as a designer and developer.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section card">
+      <h2>Contact</h2>
+      <p>Ready to work together? Use one of these direct contact options for business inquiries.</p>
+      <div class="contact-actions">
+        <a class="button" href="mailto:hello@yourname.com"><span class="material-symbols-outlined">email</span>Email me</a>
+        <a class="button button-alt" href="tel:+1234567890"><span class="material-symbols-outlined">call</span>Call me</a>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
