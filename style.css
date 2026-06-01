@@ -1,12 +1,10 @@
 head, body{
   background-color: #c4eed9;
-  gradient: linear-gradient(to top, #90c2be, #d9e4dd);
   font-size: 16px;
 }
 head, body{
   font-family: Emberly;
   font-size: 15px;
-  alignment: center;
   color: #41102d;
   font-weight: lighter;
   float: center;
@@ -23,5 +21,4 @@ head{
   color: #41102d;
   margin: 2px;
   padding: 15px;
-  alignment: center;
 }
